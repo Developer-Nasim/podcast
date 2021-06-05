@@ -117,19 +117,13 @@
 
 
 
-  /* magnificPopup img view */
-  $(".popup-image").magnificPopup({
-    type: "image",
-    gallery: {
-      enabled: true
-    }
-  }); 
-
-  // counter
-  $('.counter').counterUp({
-    delay: 10,
-    time: 1000
-  });
+  let btn  = document.querySelectorAll('.getSearch');
+  let sbox = document.querySelector('.search-area');
+  btn.forEach(SBtn=> {
+      SBtn.addEventListener('click', () => {
+          sbox.classList.toggle('active')
+      })
+  })
  
  
 })(jQuery);
