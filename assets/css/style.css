@@ -4,7 +4,8 @@ body {
   font-family: 'Rubik', sans-serif;
   font-weight: 400; 
   color: #6d727c;
-  font-size: 14px; 
+  background-color: #f6fafc;
+  font-size: 14px;
 }
 
   
@@ -397,6 +398,7 @@ li {
 
 
 
+
 .hero-area {
     background: url(../img/btop-bg.webp);
     background-size: cover;
@@ -563,6 +565,42 @@ ul.nBtn {
 .blk-titles a:hover {
     color: #00A7D1;
 } 
+
+
+
+
+
+
+/* Hero-area END && Episodes-area START */
+
+
+
+
+
+.episodes-area {
+    position: relative;
+    z-index: 2;
+}
+.episodes-area img.shap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.episodes-area img.shap2 {
+    position: absolute;
+    z-index: -1;
+    top: 2%;
+    right: 6%;
+}
+.episodes-area img.shap3 {
+    position: absolute;
+    z-index: -1;
+    bottom: 14%;
+    left: 3%;
+}
+
+
 .episode-blk {
     padding: 20px;
     background: #fff;
@@ -585,7 +623,10 @@ ul.nBtn {
     border-radius: 10px;
 }
 
-.img-blk:after {content: "";position: absolute;width: 100%;height: 100%;background: #00000057;top: 0;left: 0;border-radius: 10px;z-index: 1;}
+.img-blk:after {content: "";position: absolute;width: 100%;height: 100%;background: #00000057;top: 0;left: 0;border-radius: 10px;z-index: 1;transition: .3s}
+.img-blk:hover:after {
+    background: rgba(0,0,0,0.5);
+}
 a.play-btn {
     vertical-align: middle;
     line-height: 50px;
@@ -803,12 +844,26 @@ a.browseAll:hover {
 
 
 
-
+ 
 .support-area {
-    padding: 100px 0;
-    background: url(../img/sec1.jpg);
-    background-size: cover;
-    background-position: center;
+    padding: 160px 0;
+    position: relative;
+    background: #f6fafd;
+    z-index: 2;
+    background-image: url(../img/sec1.jpg);
+    background-position: 18% 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.support-area img.s_background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 78%;
+    object-fit: cover;
+    object-position: left;
 }
 .platform-wrp h1 {
     color: #071129; 
@@ -829,6 +884,9 @@ a.browseAll:hover {
 .blog-blk {
     position: relative;
     margin-top: 30px;
+}
+.blog-area .blk-titles {
+    margin: 0;
 }
 .blog-blk .img-blk {
     position: relative;
@@ -864,6 +922,7 @@ a.browseAll:hover {
     height: 40px;
     border-radius: 50%;
     margin-right: 10px;
+    object-fit: cover;
 }
 
 .admin a {
@@ -880,16 +939,26 @@ a.browseAll:hover {
 .admin a span {
     margin-left: 25px;
     font-size: 11px;
+} 
+
+ 
+
+
+
+/* support-area END && Hero-area START */
+
+
+
+
+
+
+.Footer-area {
+    background-color: #F1F5F9;
+    margin-top: 200px;
 }
 
-.blog-blk .img-blk:after {
-    background: rgba(0,0,0,0.15);
-    transition: .3s;
-}
 
-.blog-blk .img-blk:hover:after {
-    background: rgba(0,0,0,0.5);
-}
+
 .newsLatter-blk {
     position: relative;
     display: flex;
@@ -960,21 +1029,9 @@ a.browseAll:hover {
 }
 
 
- 
 
 
 
-/* support-area END && Hero-area START */
-
-
-
-
-
-
-.Footer-area {
-    background-color: #F1F5F9;
-    margin-top: 200px;
-}
 .footer-blk a.fLogo {
     display: block;
     width: max-content;
