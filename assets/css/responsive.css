@@ -9,24 +9,325 @@
 @media (min-width: 992px) and (max-width: 1200px) {
 
 
+	.ep-wrp h5 {
+	    font-size: 22px; 
+	}
+	.hero-wrp h1 { 
+	    font-size: 54px; 
+	}
+	.Hosts-blk img { 
+	    width: 140px !important;
+	    max-height: 140px; 
+	}
+	.scrollToTop {
+	    width: 50px;
+	    height: 50px; 
+	}
+	.scrollToTop i {
+	    font-size: 18px;
+	    margin-top: 15px; 
+	}
+	.platform-wrp h1 { 
+	    font-size: 38px; 
+	    line-height: 36px;
+	}
+	.support-area {
+	    padding: 110px 0;
+	}
+	.hero-area.contactPage ul.wSocial li { 
+	    margin-right: 15px;
+	    font-size: 14px; 
+	    line-height: 41px;
+	}
+
+ 
+
 }
 
  
 /* Tablet screen :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-
-
+	.Footer-area {
+	    background-color: #F1F5F9;
+	    margin-top: 90px;
+	    padding-top: 60px;
+	}
+	.support-area{
+		background: none
+	}
+	.episodes-area img.shap2 { 
+	    top: 2%;
+	    right: 20%;
+	    max-width: 80%;
+	}
+	.platform-wrp {
+	    max-width: 600px;
+	    margin: auto;
+	}
+	.copyRightwrp { 
+	    margin-top: 25px; 
+	}
+	.logo-area a img { 
+	    max-height: 40px;
+	}
+	.bar a {
+	    width: 30px; 
+	}
+	.bar a span:before { 
+	    bottom: 8px; 
+	}
+	.bar a span:after { 
+	    bottom: -8px; 
+	}
+	.header-area { 
+	    padding: 15px 0;
+	}  
+	.hero-wrp {
+	    max-width: 600px;
+	    margin: auto;
+	}
+	.hero-area { 
+	    padding: 60px 0;
+	    padding-top: 150px; 
+	}
+	ul.wSocial li { 
+	    margin-right: 10px; 
+	    line-height: 41px;
+	}
+	.contact-area {
+	    padding: 60px 0;
+	}
+ 
+	.hero-area.contactPage ul.wSocial { 
+	    display: none;
+	}
+	.hero-area.contactPage {
+	    padding: 0 0;
+	    padding-top: 150px;
+	}
+	h4.ctt span { 
+	    margin-bottom: 10px;
+	}
+	.the_wrp {
+	    margin-top: 10px;
+	    width: 45%;
+	}
+	.the_wrp h5 { 
+	    font-size: 13px; 
+	    line-height: 24px; 
+	    margin-bottom: 10px;
+	}
+	h4.ctt { 
+	    margin-bottom: 10px;
+	}
+	.contact-wrp.left-blks {
+	    margin-bottom: 50px;
+	}
+ 
 }
 
  
 /* small screen :320px. */
 @media (max-width: 767px) {
 
+
+	.Footer-area {
+	    background-color: #F1F5F9;
+	    margin-top: 70px;
+	    padding-top: 30px;
+	}
+	.support-area{
+		background: none;
+		padding: 50px 0;
+	    padding-bottom: 80px;
+	}
+	.episodes-area img.shap { 
+	    top: -100px; 
+	    max-width: 90%;
+	}
+	.episodes-area img.shap2 {
+	    top: 1%;
+	    right: 45%;
+	    max-width: 40%;
+	}
+	.platform-wrp {
+	    max-width: 600px;
+	    margin: auto;
+	}
+	.copyRightwrp { 
+	    margin-top: 25px;
+	    padding: 15px 0;
+	}
+	.logo-area a img { 
+	    max-height: 40px;
+	}
+	.bar a {
+	    width: 25px; 
+	}
+	.bar a span:before { 
+	    bottom: 8px; 
+	}
+	.bar a span:after { 
+	    bottom: -8px; 
+	}
+	.header-area { 
+	    padding: 15px 0;
+	}  
+	.hero-area {
+	    padding: 50px 0;
+	    padding-top: 130px;
+	}
+	.hero-wrp {
+	    max-width: 600px;
+	    margin: auto;
+	}
+	ul.wSocial li { 
+	    margin-right: 10px; 
+	    line-height: 41px;
+	}
+	.hero-wrp h1 { 
+	    font-size: 30px; 
+	    line-height: 30px; 
+	}
+	.hero-wrp p {
+	    font-size: 14px;
+	    margin-bottom: 25px;
+	}
+	.t-row {
+	    display: block;
+	}
+
+	.t-row img {
+	    height: 70px;
+	    width: 70px;
+	    margin-bottom: 15px;
+	}
+	ul.nBtn li a.theme-btn.mbtn.transparent{
+		display: none;
+	}
+	ul.wSocial{
+		display: none;
+	}
+	ul.nBtn {
+	    margin-top: 15px;
+	    margin-bottom: 0;
+	}
+	.copyRightwrp ul { 
+	    display: block;
+	    text-align: center;
+	}
+	.footer-blk h5 {  
+	    margin-bottom: 10px;
+	}
+	.footer-blk ul li { 
+	    margin-bottom: 5px;
+	}
+	.footer-blk {
+	    margin-top: 25px;
+	}
+	.footer-blk ul li.opening-dates {
+	    margin-top: 15px; 
+	    margin-bottom: 0;
+	}
+	.ep-wrp h5 {
+	    font-size: 20px;
+	    line-height: 28px; 
+	}
+	.blk-titles {
+	    margin-top: 30px;
+	}
+	.episodes-area { 
+	    padding-top: 30px; 
+	}
+	.features-blk { 
+	    margin: 30px 0px;
+	}
+	.ft-wrp ul li a {
+	    font-size: 14px; 
+	    line-height: 18px; 
+	}
+	.ft-wrp ul li { 
+	    margin: 10px 0;
+	}
+	.owl-nav div {
+	    width: 35px;
+	    height: 35px;
+	    line-height: 38px;
+	    margin-left: 4px;
+	    font-size: 15px;
+	}
+	.blk-titles h4 { 
+	    font-size: 24px; 
+	}
+	.owl-nav { 
+	    top: -40px; 
+	}
+	.platform-wrp h1 { 
+	    font-size: 34px; 
+	    line-height: 38px;
+	}
+	.platform-wrp p {
+	    padding: 0px 0 0px 0px; 
+	    font-size: 15px; 
+	    line-height: 22px;
+	    margin-bottom: 35px;
+	}
+	.scrollToTop { 
+	    transform: scale(.7);
+	}
+
+	.hero-area.contactPage ul.wSocial { 
+	    display: none;
+	}
+	.hero-area.contactPage {
+	    padding: 0 0;
+	    padding-top: 150px;
+	}
+	h4.ctt span { 
+	    margin-bottom: 10px;
+	}
+	.the_wrp {
+	    margin-top: 10px;
+	    width: 45%;
+	}
+	.the_wrp h5 { 
+	    font-size: 13px; 
+	    line-height: 24px; 
+	    margin-bottom: 10px;
+	}
+	h4.ctt { 
+	    margin-bottom: 10px;
+	} 
+	iframe { 
+	    height: 300px;
+	}
+	.contact-wrp.left-blks {
+	    margin-bottom: 50px;
+	    padding-right: 0;
+	}
+	p.odates { 
+	    width: 145px;
+	}
+	.contact-area {
+	    padding: 50px 0;
+	}
+	.hero-area.contactPage .hero-wrp h1 {
+	    font-size: 46px; 
+	    line-height: 40px;
+	}
+	.contact-wrp form label { 
+	    font-size: 13px; 
+	    line-height: 15px;
+	}
+	.contact-wrp form input[type="checkbox"] {
+	    min-width: 20px; 
+	}
+
+
+
+
+
+
+
  
-}
- 
-/* Large Mobile screen :480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
- 
-}
+} 
